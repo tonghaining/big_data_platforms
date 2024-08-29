@@ -37,7 +37,7 @@ the same.
 3. Start a Jupyter Notebook container with the following command:
    From **Windows**:
    ```bash
-   docker run --name bdp_homework --rm -p 8888:8888 -v %cd%:/home/jovyan/work hainingt/big_data_platforms:2024 
+   docker run --name bdp_homework --rm -p 8888:8888 -v .:/home/jovyan/work hainingt/big_data_platforms:2024 
    ```
    From **macOS** and **Linux**:
    ```bash
@@ -90,7 +90,7 @@ Some notes about the above command:
 
 ### Step 6: Upload Jupyter Notebook to Mooc Page
 
-1. Go to the [big-data-platforms-23 Mooc Page](https://big-data-platforms-23.mooc.fi/) and sign in with your Mooc
+1. Go to the [big-data-platforms-24 Mooc Page](https://big-data-platforms-24.mooc.fi/) and sign in with your Mooc
    account.
 2. The submission box is in the bottom of the page. Choose the assignment title and upload your notebook file.
    ​
