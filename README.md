@@ -22,7 +22,7 @@
 ### Step 2: Get released homework files
 
 You could either download the homework files from this repository or
-from [Google Drive](https://drive.google.com/drive/folders/1Gv0B0yu3_KtYT9MYVA8UXVK-1df5RUIv). The homework files are
+from [Google Drive](https://drive.google.com/drive/folders/1aJQGzSV-tTOZjWWVV-N16DtP043fKWMs). The homework files are
 the same.
 ​
 
@@ -32,16 +32,16 @@ the same.
    ​
 2. Pull the docker image with the following command: (You only need to do this once)
    ```bash
-   docker pull hainingt/big_data_platforms:latest
+   docker pull hainingt/big_data_platforms:2024
    ```
 3. Start a Jupyter Notebook container with the following command:
    From **Windows**:
    ```bash
-   docker run --name bdp_homework --rm -p 8888:8888 -v %cd%:/home/jovyan/work hainingt/big_data_platforms:latest 
+   docker run --name bdp_homework --rm -p 8888:8888 -v %cd%:/home/jovyan/work hainingt/big_data_platforms:2024 
    ```
    From **macOS** and **Linux**:
    ```bash
-   docker run --name bdp_homework --rm -p 8888:8888 -v $(pwd):/home/jovyan/work hainingt/big_data_platforms
+   docker run --name bdp_homework --rm -p 8888:8888 -v $(pwd):/home/jovyan/work hainingt/big_data_platforms:2024
    ```
 
 Some notes about the above command:
