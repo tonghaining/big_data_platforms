@@ -32,7 +32,7 @@ The homework files can be downloaded from [Google Drive](https://drive.google.co
    ```bash
    docker pull hainingt/big_data_platforms:2024
    ```
-3. Start a Jupyter Notebook container with the following command:
+3. Start a Jupyter Notebook container with the following command: (make sure to remove any line breaks when copying and pasting)
    ```bash
    docker run --name bdp_homework --rm -p 8888:8888 -v .:/home/jovyan/work hainingt/big_data_platforms:2024 
    ```
