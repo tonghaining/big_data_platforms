@@ -69,7 +69,8 @@ Some notes about the above command:
 4. To save the notebook to your local machine:
     - Click on "File" in the Jupyter interface.
     - Select "Download as" and choose the desired format (e.g., Notebook (.ipynb)).
-      ​
+      
+5. Please ensure that you only modify the cells marked with "# YOUR CODE HERE". We use Nbgrader for automatic grading, so Jupyter notebooks from other sources or those with unexpected modifications may be rejected by the grading system, meaning that the system will fail to give points for the exercise.
 
 ### Step 5: Stop and Remove Jupyter Notebook Container
 
